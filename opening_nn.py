@@ -1,6 +1,6 @@
 from typing import List, Dict, Any, Set, Tuple
 
-from .utils_distance import distance_between_points
+from utils_distance import distance_between_points
 
 
 def nearest_neighbor_routes(

@@ -5,9 +5,9 @@ from typing import List, Dict, Any
 
 import pandas as pd
 
-from .opening_nn import nearest_neighbor_routes, print_routes_summary
-from .opening_savings import savings_routes, print_savings_routes
-from .utils_distance import distance_between_points
+from opening_nn import nearest_neighbor_routes, print_routes_summary
+from opening_savings import savings_routes, print_savings_routes
+from utils_distance import distance_between_points
 
 
 # ===== تنظیمات قابل تغییر =====
