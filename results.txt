@@ -1,0 +1,53 @@
+------------- CWS + SA on s2_1(scenario 1) -------------
+
+bicycle km: 0 km
+truck km: 655.4739907500827 km
+total expense: 777.9361964419201 €
+total CO2: 161902.0757152705 g
+runtime CWS: 78.74483752250671 seconds
+runtime SA: 67.18434381484985 seconds
+
+------------- GA + CWS + SA on s2_1 without limitations for hubs(scenario 2) -------------
+
+----- expense otimization -----
+bicycle km: 1797.0870802407785 km
+truck km: 187.98257460631976 km
+total expense: 4318.24849275465 €
+total CO2: 46431.69592776096 g
+runtime GA: 1589.8279075622559 seconds
+runtime CWS: 15.646453380584717 seconds  
+runtime SA: 111.51956915855408 seconds 
+
+
+----- CO2 otimization -----
+bicycle km: 28412.231294372443 km
+truck km: 13.263113588042918 km
+total expense: 47469.45988505362 €
+total CO2: 3275.9890562466003 g
+runtime GA: 821.4410457611084 seconds
+runtime CWS: 38.20742964744568 seconds
+runtime SA: 31.062742948532104 seconds
+
+
+------------- GA + CWS + SA on s2_1 with limitations for hubs(scenario 3) -------------
+
+----- expense otimization -----
+bicycle km: 80.23370787756016 km
+truck km: 640.9211522412387 km
+total expense: 994.3872975770688 €
+total CO2: 158307.524603586 g
+runtime GA: 874.4513099193573 seconds
+runtime CWS: 124.7276337146759 seconds
+runtime SA: 215.16889548301697 seconds
+
+
+----- CO2 otimization -----
+bicycle km: 10640.294226405851 km
+truck km: 189.6454455164697 km
+total expense: 19558.900614778726 €
+total CO2: 46842.42504256799 g 
+runtime GA: 2124.428701400757 seconds
+runtime CWS: 76.20436000823975 seconds
+runtime SA: 64.75233697891235 seconds
+
+

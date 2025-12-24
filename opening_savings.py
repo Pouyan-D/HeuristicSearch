@@ -3,6 +3,7 @@
 from typing import List, Dict, Any, Tuple
 
 from utils_distance import distance_between_points
+import pandas as pd
 
 
 def _build_distance_cache(

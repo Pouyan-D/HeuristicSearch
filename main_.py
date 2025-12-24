@@ -1,6 +1,7 @@
 # src/main.py
 
 from pathlib import Path
+from turtle import distance
 from typing import List, Dict, Any
 from collections import deque
 
@@ -69,6 +70,22 @@ def hav_theta(spherical1: List, spherical2: List):
 #sperical[0] denotes the latitude and sperical[1] denotes the longitude
 def dist(spherical1: List, spherical2: List):
     return 2*earth_radius_km*np.arcsin(np.sqrt(hav_theta(spherical1, spherical2)))
+
+# ===== cost functions =====
+
+def cost_function_money_trucks(dist, spherical1: List, spherical2: List):
+    distance = dist(spherical1, spherical2)
+    return distance+distance*1.57*11.9/100
+
+def cost_function_money_bicycle(dist, spherical1: List, spherical2: List):
+    distance = dist(spherical1, spherical2)
+    return distance*25/15
+
+
+def cost_function_co2_trucks(dist, spherical1: List, spherical2: List):
+    distance = dist(spherical1, spherical2)
+    return distance*247
+    
 
 # ===== ????? ???? =====
 
